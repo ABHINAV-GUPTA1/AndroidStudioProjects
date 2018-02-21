@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.materialdesignsignuplogin.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/simpleTextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/simpleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter Your Name" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/simpleTeddxtInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/simpleEdcfitText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter Your password" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>
+</RelativeLayout>

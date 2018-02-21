@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.splash.Images">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/image_dis"
+            android:src="@drawable/p1"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+        <TextView
+            android:id="@+id/tv"
+            android:paddingTop="2dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="fhhffkfkfkfkffj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

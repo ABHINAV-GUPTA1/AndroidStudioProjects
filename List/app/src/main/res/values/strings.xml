@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">List</string>
+    <array name="co">
+        <item>l1</item>
+        <item>l2</item>
+        <item>l3</item>
+        <item>l4</item>
+        <item>l5</item>
+    </array>
+</resources>

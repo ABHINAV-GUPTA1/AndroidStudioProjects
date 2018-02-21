@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lder"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:background="@drawable/custom_border"
+    android:layout_width="wrap_content"
+    card_view:cardCornerRadius="5dp"
+    card_view:contentPadding="10dp"
+    card_view:cardElevation="3dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="#fff">
+<LinearLayout
+    android:id="@+id/top"
+    android:background="@drawable/custom_border"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:src="@drawable/i1"
+        android:id="@+id/bms1"
+        android:layout_width="fill_parent"
+        android:layout_height="129.0dip" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+
+            android:gravity="left"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/film_name"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="Padmaavat"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_below="@id/film_name"
+                android:id="@+id/lang"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="1dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="Hindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/bookshow"
+                    android:background="@drawable/button_red"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#fff"
+                    android:text="BOOK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
+</LinearLayout>
